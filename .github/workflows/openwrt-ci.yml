@@ -16,11 +16,11 @@ on:
   #release:
   #  types: [published]
     
-  #push:
-  #  branches: 
-  #    - master
-  #  paths:
-  #    - '.config'
+  push:
+    branches: 
+      - master
+    paths:
+      - '.config'
 
   watch:
     types: [started]
